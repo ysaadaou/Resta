@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+Buhid&family=Oleo+Script&family=Oleo+Script+Swash+Caps&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.header__nav {
+    background-color: #538C51;
+    color: white;
+    font-size: 2rem;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+.Qr {
+    width:41px;
+    height:41px;
+}
+
+
+body {
+    background-color: #AFBF73;
+    height: 100vh;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.container {
+    width: 100%;
+    height: 175px;
+    background-color:#AFBF73;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.main__section {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.breakFast-content {
+    padding-right: 20px ;
+}
+.beverages-content {
+    padding-left: 20px;
+}
+
+.bakery-content {
+    padding-right:20px ;
+}
+
+.iceCreams-content {
+    padding-left:20px ;
+}
+
+
+
+
+
+.breakFast {
+    background-color: #F2B84B;
+    width: 100%;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+.tasety  {
+    position: absolute;
+    width: 190px;
+    height: 160px;
+    border-radius: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.beverages {
+    background-color: #662400;
+    color: white;
+    width: 100%;
+    height: 96px;
+}
+
+.bakery {
+    background-color: #F5DE83;
+    width: 100%;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.iceCreams {
+    background-color: #FF2BEA;
+    color: white;
+    width: 100%;
+    height: 96px;
+}
+
+.beveragesImg img{
+    right: 10px;
+}
+
+.iceCreamsImg img{
+    right: 10px;
+}
+
+.bakeryImg img {
+    left: 10px;
+}
+
+.breakFastImg img {
+    left: 10px;
+}
+
+
+
+.serverButton {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+
+.container button {
+    background-color:#538C51;
+    border-radius: 15px;
+    border-radius: 36px;
+    padding-bottom: 2px;
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container button:hover {
+    background-color: aliceblue;
+}
