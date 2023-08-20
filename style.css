@@ -164,9 +164,10 @@ p{
 }
 
 
-@media (min-height: 700px) {
+@media (min-height: 800px) {
    .container {
     height: 190px;
+    background-color: red;
    } 
 
    .tasety {
